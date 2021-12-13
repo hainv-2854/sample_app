@@ -9,10 +9,10 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
-
+/test/
 # Used by dotenv library to load environment variables.
 # .env
-
+/node_modules
 # Ignore Byebug command history file.
 .byebug_history
 
@@ -23,7 +23,8 @@ build/
 *.bridgesupport
 build-iPhoneOS/
 build-iPhoneSimulator/
-
+log/development.log
+/log/
 ## Specific to RubyMotion (use of CocoaPods):
 #
 # We recommend against adding the Pods directory to your .gitignore. However
@@ -51,6 +52,8 @@ build-iPhoneSimulator/
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
-
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
 # .rubocop-https?--*
+# 
+.framgia-ci-reports/
+.framgia-ci-result.temp.yml

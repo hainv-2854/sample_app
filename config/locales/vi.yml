@@ -1,0 +1,16 @@
+vi:
+  title: "Hướng dẫn Ruby on Rails"
+  sample_app: "Ứng dụng mẫũ"
+  english: "Tiếng Anh"
+  vietnamese: "Tiếng Việt"
+  home: "Trang chủ"
+  rails_tutorial: "Hướng dẫn Ruby on Rails"
+  page:
+    home_page:
+      intro_home: "Đây là trang chủ của"
+    help_page:
+      intro_to_help: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      intro_to_book:  "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+  help: "Trợ giúp"
+  contact: "Liên Hệ"
+  login: "Đăng Nhập"
