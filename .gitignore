@@ -8,11 +8,18 @@
 /spec/examples.txt
 /test/tmp/
 /test/version_tmp/
-/tmp/
+/tmp/*
 /test/
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
 # Used by dotenv library to load environment variables.
 # .env
-/node_modules
+# Ignore node_modules
+node_modules/
+/test
 # Ignore Byebug command history file.
 .byebug_history
 
@@ -57,3 +64,4 @@ log/development.log
 # 
 .framgia-ci-reports/
 .framgia-ci-result.temp.yml
+test

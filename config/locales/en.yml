@@ -2,6 +2,7 @@
 en:
   title: "Ruby on Rails Tutorial Sample App"
   sample_app: "Sample App"
+  welcome: "Welcome to the Sample App"
   english: "English"
   vietnamese: "vietnamese"
   home: "Home"
@@ -15,3 +16,4 @@ en:
   help: "Help"
   contact: "Contact"
   login: "Login"
+  signup: "Sign up now!"
