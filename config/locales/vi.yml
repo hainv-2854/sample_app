@@ -1,6 +1,7 @@
 vi:
   title: "Hướng dẫn Ruby on Rails"
   sample_app: "Ứng dụng mẫũ"
+  welcome: "Chào mừng bạn đến ứng dụng mẫu"
   english: "Tiếng Anh"
   vietnamese: "Tiếng Việt"
   home: "Trang chủ"
@@ -14,3 +15,4 @@ vi:
   help: "Trợ giúp"
   contact: "Liên Hệ"
   login: "Đăng Nhập"
+  signup: "Đăng ký ngay!"
