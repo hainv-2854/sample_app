@@ -1,6 +1,12 @@
 <% provide :title, t(".show_user") %>
-<div>
-  <h1><%= t ".show_user" %></h1>
-  <%= @user.name %>, <%= @user.email %>
-  <p></p>
+<div class="row">
+  <aside class="col-md-4">
+    <section class="user_info">
+      <h1>
+        <%= gravatar_for @user %>
+        <%= @user.name %>
+        <%= @user.password_digest %>
+      </h1>
+    </section>
+  </aside>
 </div>

@@ -1,11 +1,13 @@
-default:
-  adapter:
-  encoding:
-  pool:
-  username:
-  password:
-  socket:
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  username: root
+  password: Vanhai2k263@
+  host: 127.0.0.1
+  port: 3306
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
 
 development:
-  <<:
-  database:
+  <<: *default
+  database: "sample_app"

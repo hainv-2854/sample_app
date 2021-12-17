@@ -5,3 +5,8 @@ length:
   min_length_password: 3
 email:
   check_mail: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
+links:
+  links:
+  book: "https://www.railstutorial.org/book"
+  help: "http://www.railstutorial.org/help"
+  railsmain: "http://www.railstutorial.org/"
