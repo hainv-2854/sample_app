@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "colors";
 
 /* universal */
 body {
@@ -23,13 +24,35 @@ margin-bottom: 10px;
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #fff;
+  color: $white_fff;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
 }
 #logo:hover {
-  color: #fff;
+  color: $white_fff;
   text-decoration: none;
+}
+
+/* forms */
+input, textarea, select, .uneditable-input {
+  border: 1px solid $area_gray;
+  width: 100%;
+  margin-bottom: 15px;
+}
+input {
+  height: auto !important;
+}
+#error_explanation {
+  color: $error_red;
+  ul {
+    color: $error_red;
+    margin: 0 0 30px;
+  }
+}
+.field_with_errors {
+  .form-control {
+    color: $state-danger-text;
+  }
 }
