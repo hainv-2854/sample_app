@@ -1,0 +1,7 @@
+length:
+  max_length_email: 150
+  min_length_name: 6
+  max_length_name: 50
+  min_length_password: 6
+mail:
+  check_mail: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i

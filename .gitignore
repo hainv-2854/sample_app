@@ -15,6 +15,8 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+config/database.yml
+config/credentials.yml.enc
 # Used by dotenv library to load environment variables.
 # .env
 # Ignore node_modules
@@ -32,12 +34,7 @@ build-iPhoneOS/
 build-iPhoneSimulator/
 log/development.log
 /log/
-## Specific to RubyMotion (use of CocoaPods):
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-#
+# Specific to RubyMotion (use of CocoaPods):
 # vendor/Pods/
 
 ## Documentation cache and generated files:
@@ -61,7 +58,7 @@ log/development.log
 .rvmrc
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
 # .rubocop-https?--*
-# 
+#
 .framgia-ci-reports/
 .framgia-ci-result.temp.yml
 test
