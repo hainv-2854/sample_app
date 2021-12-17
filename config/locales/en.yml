@@ -49,5 +49,6 @@ en:
       new_user: "New user"
       password: "Password"
       login_success: "Login success"
+      remember_me: "Remember me on this computer"
     create:
       invalid_email_password: "Invalid email password"
