@@ -1,2 +1,6 @@
-<h1>Users#show</h1>
-<p></p>
+<% provide :title, t(".show_user") %>
+<div>
+  <h1><%= t ".show_user" %></h1>
+  <%= @user.name %>, <%= @user.email %>
+  <p></p>
+</div>

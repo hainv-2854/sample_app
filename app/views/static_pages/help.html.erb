@@ -1,10 +1,10 @@
-<% provide :title, t("help") %>
+<% provide :title, t(".title") %>
 <div class="center jumbotron">
-  <h1><%= t "help" %></h1>
+  <h1><%= t ".title" %></h1>
   <p>
-    <%= t "page.help_page.intro_to_help" %>
-    <%= link_to t("rails_tutorial"), locale: "http://www.railstutorial.org/help" %>
-    <%= t("page.help_page.intro_to_book") %>
-    <%= link_to t("rails_tutorial"), locale: "http://www.railstutorial.org/book" %>
+    <%= t ".intro_to_help" %>
+    <%= link_to t("static_pages.rails_tutorial"), locale: "http://www.railstutorial.org/help" %>
+    <%= t("static_pages.help.intro_to_book") %>
+    <%= link_to t("static_pages.rails_tutorial"), locale: "http://www.railstutorial.org/book" %>
   </p>
 </div>

@@ -1,19 +1,32 @@
 
 en:
-  title: "Ruby on Rails Tutorial Sample App"
-  sample_app: "Sample App"
-  welcome: "Welcome to the Sample App"
-  english: "English"
-  vietnamese: "vietnamese"
-  home: "Home"
-  rails_tutorial: "Ruby on Rails Tutorial"
-  page:
-    home_page:
+  static_pages:
+    title: "Ruby on Rails Tutorial Sample App"
+    sample_app: "Sample App"
+    rails_tutorial: "Ruby on Rails Tutorial"
+    home:
+      title: "Home"
+      welcome: "Welcome to the Sample App"
       intro_home: "This is the home page for the"
-    help_page:
+    help:
+      title: "Help"
       intro_to_help: "Get help on the Ruby on Rails Tutorial at the"
       intro_to_book:  "To get help on this sample app, see the"
-  help: "Help"
-  contact: "Contact"
+    contact: "Contact"
+  language:
+    english: "English"
+    vietnamese: "vietnamese"
+  users:
+    index:
+      show_user: "Show User"
+    show:
+      not_found_user: "Not found user"
+    new:
+      signup: "Sign up now!"
+      name: "Full Name"
+      password: "Password"
+      password_confi: "Confirmation password"
+    create:
+      success: "Register Success"
+      danger: "Register Fail"
   login: "Login"
-  signup: "Sign up now!"
