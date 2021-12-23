@@ -1,25 +1,40 @@
 vi:
+  layouts:
+    header:
+      sample_app: "Ung Dung Mau"
+      home: "Trang Chu"
+      help: "Tro giup"
+      log_in: "Dang Nhap"
+      singup: "Dang Ky"
+      logout: "Đăng xuất"
+      account: "Tài khoản"
+      profile: "Trang ca nhan"
+      settings: "Cài đặt"
+      user: "Nguoi Dung"
   static_pages:
     title: "Hướng dẫn Ruby on Rails"
     sample_app: "Ứng dụng mẫũ"
-    rails_tutorial: "Hướng dẫn Ruby on Rails"
     home:
       title: "Trang chủ"
       welcome: "Chào mừng bạn đến ứng dụng mẫu"
       intro_home: "Đây là trang chủ của"
+      rails_tutorial: "Hướng dẫn Ruby on Rails"
     help:
       title: "Trợ giúp"
       intro_to_help: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
       intro_to_book:  "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+      rails_tutorial: "Hướng dẫn Ruby on Rails"
     contact: "Liên Hệ"
   language:
     english: "Tiếng Anh"
     vietnamese: "Tiếng Việt"
   users:
     index:
+      user: "User"
       show_user: "Người dùng"
     show:
       not_found_user: "Khong tim thay nguoi dung"
+      show_user: "Người dùng"
     new:
       signup: "Đăng ký"
       name: "Họ Tên"
@@ -28,4 +43,11 @@ vi:
     create:
       success: "Đăng ký thành công"
       danger: "Đăng ký thất bại"
-  login: "Đăng Nhập"
+  sessions:
+    new:
+      title: "Đăng Nhập"
+      new_user: "Bạn chưa có tài khoản"
+      password: "Mật khẩu"
+      login_success: "Đăng nhập thành công"
+    create:
+      invalid_email_password: "Đăng nhập thất bại"

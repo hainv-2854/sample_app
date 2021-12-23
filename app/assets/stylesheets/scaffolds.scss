@@ -2,7 +2,7 @@
 
 body {
   background-color: $white_fff;
-  color: $area_gray;
+  color: $text-color;
   margin: 33px;
 }
 body, p, ol, ul, td {
@@ -19,7 +19,7 @@ a {
   color: $black;
 }
 a:visited {
-  color: $area_gray;
+  color: $text-color;
 }
 a:hover {
   color: $white_fff;
