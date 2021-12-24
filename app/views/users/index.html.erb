@@ -1,4 +1,8 @@
-<% provide :title, t(".show_user") %>
+<% provide(:title, t(".all_user")) %>
+<h1><%= t ".all_user"%></h1>
 <div>
-  <h1><%= t ".show_user" %></h1>
+  <ul class="users">
+    <%= render @users %>
+  </ul>
+  <%== pagy_bootstrap_nav(@pagy) %>
 </div>
