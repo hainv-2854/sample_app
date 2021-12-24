@@ -49,5 +49,6 @@ vi:
       new_user: "Bạn chưa có tài khoản"
       password: "Mật khẩu"
       login_success: "Đăng nhập thành công"
+      remember_me: "Duy trì đăng nhập"
     create:
       invalid_email_password: "Đăng nhập thất bại"
