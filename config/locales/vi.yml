@@ -11,11 +11,6 @@ vi:
       profile: "Trang ca nhan"
       settings: "Cài đặt"
       user: "Nguoi Dung"
-  mailers:
-    account_activation:
-      subject: "Xac thuc tai khaon"
-    password_reset:
-      hi: "Xin Chao"
   static_pages:
     title: "Hướng dẫn Ruby on Rails"
     sample_app: "Ứng dụng mẫũ"
@@ -80,6 +75,7 @@ vi:
       password: "Mật khẩu"
       login_success: "Đăng nhập thành công"
       remember_me: "Duy trì đăng nhập"
+      forgot_password: "Quên mật khẩu"
     create:
       invalid_email_password: "Đăng nhập thất bại"
       account_not_active: "Tai khoan chua duoc xac thuwc. Vui long kiem tra email."
@@ -97,7 +93,28 @@ vi:
       activate: "Hoat Dong"
     password_reset:
       hi: "Xin chào"
+      password_reset: "Tạo mới mật khẩu"
+      to_reset_below: "Nhấn vào liên kết bên dưới để tạo mới mật khẩu:"
+      warning_expire: "Linh sẽ hết hạn trong vòng: "
+      if_did_not: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
   account_activations:
     edit:
       account_active: "Xac thuc thanh cong!"
       invalid_activation: "Linh khong hop le"
+  password_resets:
+    new:
+      submit: "Xác nhận"
+      forgot_password: "Quên mật khẩu"
+    create:
+      reset_instructions: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+      email_not_found: "Không tìm thấy đại chỉ mail"
+    edit:
+      reset_password: "Tạo mới mật khẩu"
+      password: "Mật khẩu"
+      confirmation: "Nhập lại mật khẩu"
+      update_password: "Cập nhật mật khẩu"
+    update:
+      cannt_empty: "Không được để trống"
+      pass_has_been_reset: "Mật khẩu đã được đặt lại."
+    check_expiration:
+      pass_reset_axpired: "Đặt lại mật khẩu hết hạn."
