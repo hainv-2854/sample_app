@@ -29,8 +29,12 @@ vi:
     english: "Tiếng Anh"
     vietnamese: "Tiếng Việt"
   users:
+    user:
+      delete: "Xóa"
+      delete_comirm: "Xác nhận xóa?"
     index:
       user: "User"
+      all_user: "Tất cả người dùng"
       show_user: "Người dùng"
     show:
       not_found_user: "Khong tim thay nguoi dung"
@@ -43,6 +47,26 @@ vi:
     create:
       success: "Đăng ký thành công"
       danger: "Đăng ký thất bại"
+    edit:
+      update_profile: "Cập nhật trang cá nhân"
+      edit_user: "Cập nhật tài khoản"
+      save_change: "Lưu thay đổi"
+      change: "Thay đổi"
+    update:
+      success: "Cập nhật thành công"
+      danger: "Cập nhật thất bại"
+    destroy:
+      success: "Xóa thành công"
+      danger: "Xóa thất bại"
+    logged_in_user:
+      please_login: "Please login"
+    form:
+      name: "Tên người dùng"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+    load_user:
+      not_admin: "Require Admin"
+      not_found_user: "Not found user"
   sessions:
     new:
       title: "Đăng Nhập"
@@ -52,3 +76,8 @@ vi:
       remember_me: "Duy trì đăng nhập"
     create:
       invalid_email_password: "Đăng nhập thất bại"
+  pagy:
+    nav:
+      prev: "Truoc"
+      next: "Sau"
+      gap: "..."

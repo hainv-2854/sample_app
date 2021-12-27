@@ -1,8 +1,10 @@
 length:
-  max_length_email: 150
-  min_length_name: 6
-  max_length_name: 50
-  min_length_password: 3
+  digit_150: 150
+  digit_6: 6
+  digit_50: 50
+  digit_3: 3
+  digit_80: 80
+  per_page_10: 10
 email:
   check_mail: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
 links:
@@ -10,3 +12,4 @@ links:
   book: "https://www.railstutorial.org/book"
   help: "http://www.railstutorial.org/help"
   railsmain: "http://www.railstutorial.org/"
+  gravata: "http://gravatar.com/emails"

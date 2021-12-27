@@ -29,8 +29,12 @@ en:
     english: "English"
     vietnamese: "vietnamese"
   users:
+    user:
+      delete: "Xóa"
+      delete_comirm: "Xác nhận xóa?"
     index:
       user: "User"
+      all_user: "All user"
       show_user: "User"
     show:
       not_found_user: "Not found user"
@@ -43,6 +47,26 @@ en:
     create:
       success: "Register Success"
       danger: "Register Fail"
+    edit:
+      update_profile: "Update your profile"
+      edit_user: "Edit user"
+      save_change: "Save change"
+      change: "change"
+    update:
+      success: "Update success"
+      danger: "Update fail"
+    destroy:
+      success: "User deleted"
+      danger: "User fail"
+    logged_in_user:
+      please_login: "Please login"
+    load_user:
+      not_admin: "Require Admin"
+      not_found_user: "Not found user"
+    form:
+      name: "Name"
+      password: "Password"
+      password_confirmation: "Confirmation password"
   sessions:
     new:
       title: "Login"
@@ -52,3 +76,8 @@ en:
       remember_me: "Remember me on this computer"
     create:
       invalid_email_password: "Invalid email password"
+  pagy:
+    nav:
+      prev: "Prev"
+      next: "Next"
+      gap: "..."
