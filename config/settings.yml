@@ -8,6 +8,8 @@ length:
 email:
   check_mail: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
   mail_personal: "vanhai260300@gmail.com"
+time:
+  expired_2: 2
 links:
   links:
   book: "https://www.railstutorial.org/book"
