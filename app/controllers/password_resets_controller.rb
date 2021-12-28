@@ -53,7 +53,6 @@ class PasswordResetsController < ApplicationController
   end
 
   def check_expiration
-    byebug
     return if @user.password_reset_expired?
 
     flash[:danger] = t ".pass_reset_axpired"
