@@ -10,22 +10,17 @@
 /test/version_tmp/
 /tmp/*
 /test/
-# Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
 !/log/.keep
 !/tmp/.keep
 config/database.yml
 config/credentials.yml.enc
-# Used by dotenv library to load environment variables.
-# .env
-# Ignore node_modules
+
 node_modules/
 /test
-# Ignore Byebug command history file.
 .byebug_history
 
-## Specific to RubyMotion:
 .dat*
 .repl_history
 build/
@@ -34,31 +29,16 @@ build-iPhoneOS/
 build-iPhoneSimulator/
 log/development.log
 /log/
-# Specific to RubyMotion (use of CocoaPods):
-# vendor/Pods/
 
-## Documentation cache and generated files:
 /.yardoc/
 /_yardoc/
 /doc/
 /rdoc/
 
-## Environment normalization:
 /.bundle/
 /vendor/bundle
 /lib/bundler/man/
-
-# for a library or gem, you might want to ignore these files since the code is
-# intended to run in multiple environments; otherwise, check them in:
-# Gemfile.lock
-# .ruby-version
-# .ruby-gemset
-
-# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
-# Used by RuboCop. Remote config files pulled in from inherit_from directive.
-# .rubocop-https?--*
-#
 .framgia-ci-reports/
 .framgia-ci-result.temp.yml
 test
@@ -66,3 +46,4 @@ test
 config/settings.local.yml
 config/settings/*.local.yml
 config/environments/*.local.yml
+config/environments/development.rb

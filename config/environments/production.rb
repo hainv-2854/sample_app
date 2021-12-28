@@ -1,6 +1,18 @@
 require "active_support/core_ext/integer/time"
-
 Rails.application.configure do
+    config.action_mailer.raise_delivery_errors = true
+    config.action_mailer.delivery_method = :smtp
+    host = '<your heroku app>.herokuapp.com'
+    config.action_mailer.default_url_options = {host: host}
+    ActionMailer::Base.smtp_settings = {
+    address: 'smtp.sendgrid.net',
+    port: '587',
+    authentication: :plain,
+    user_name: ENV['SENDGRID_USERNAME'],
+    password: ENV['SENDGRID_PASSWORD'],
+    domain: 'heroku.com',
+    enable_starttls_auto: true
+  }
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
@@ -43,13 +55,13 @@ Rails.application.configure do
   # Mount Action Cable outside main process or domain.
   # config.action_cable.mount_path = nil
   # config.action_cable.url = 'wss://example.com/cable'
-  # config.action_cable.allowed_request_origins = [ 'http://example.com', /http:\/\/example.*/ ]
+  # config.action_cable.allowed_request_origins = [ 'http://example
 
-  # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
+  # Force all access to the app over SSL, use Strict-Transport-Security, and us
   # config.force_ssl = true
 
-  # Include generic and useful information about system operation, but avoid logging too much
-  # information to avoid inadvertent exposure of personally identifiable information (PII).
+  # Include generic and useful information abo
+  # information to avoid inadvertent exposure of
   config.log_level = :info
 
   # Prepend all log lines with the following tags.
@@ -65,7 +77,7 @@ Rails.application.configure do
   config.action_mailer.perform_caching = false
 
   # Ignore bad email addresses and do not raise email delivery errors.
-  # Set this to true and configure the email server for immediate delivery to raise delivery errors.
+  # Set this to true and configure the email server for immediat
   # config.action_mailer.raise_delivery_errors = false
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
@@ -115,6 +127,5 @@ Rails.application.configure do
   # strategy for connection switching and pass that into the middleware through
   # these configuration options.
   # config.active_record.database_selector = { delay: 2.seconds }
-  # config.active_record.database_resolver = ActiveRecord::Middleware::DatabaseSelector::Resolver
-  # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
+  # config.active_record.database_resolver = ActiveRecord::Middleware::Database
 end

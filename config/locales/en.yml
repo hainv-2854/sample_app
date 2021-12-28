@@ -47,6 +47,7 @@ en:
     create:
       success: "Register Success"
       danger: "Register Fail"
+      please_check_email: "Please check your email to activate your account."
     edit:
       update_profile: "Update your profile"
       edit_user: "Edit user"
@@ -76,8 +77,22 @@ en:
       remember_me: "Remember me on this computer"
     create:
       invalid_email_password: "Invalid email password"
+      account_not_active: "Account not activated. Check your email for the activation link."
   pagy:
     nav:
       prev: "Prev"
       next: "Next"
       gap: "..."
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      sample_app: "Sample App"
+      hi: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activation"
+    password_reset:
+      hi: "Hi"
+  account_activations:
+    edit:
+      account_active: "Account activated!"
+      invalid_activation: "Invalid activation link"

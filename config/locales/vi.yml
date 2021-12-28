@@ -11,6 +11,11 @@ vi:
       profile: "Trang ca nhan"
       settings: "Cài đặt"
       user: "Nguoi Dung"
+  mailers:
+    account_activation:
+      subject: "Xac thuc tai khaon"
+    password_reset:
+      hi: "Xin Chao"
   static_pages:
     title: "Hướng dẫn Ruby on Rails"
     sample_app: "Ứng dụng mẫũ"
@@ -47,6 +52,7 @@ vi:
     create:
       success: "Đăng ký thành công"
       danger: "Đăng ký thất bại"
+      please_check_email: "Check email để xác minh tài khoản."
     edit:
       update_profile: "Cập nhật trang cá nhân"
       edit_user: "Cập nhật tài khoản"
@@ -76,8 +82,22 @@ vi:
       remember_me: "Duy trì đăng nhập"
     create:
       invalid_email_password: "Đăng nhập thất bại"
+      account_not_active: "Tai khoan chua duoc xac thuwc. Vui long kiem tra email."
   pagy:
     nav:
       prev: "Truoc"
       next: "Sau"
       gap: "..."
+  user_mailer:
+    account_activation:
+      sample_app: "Ap Don Gian"
+      hi: "Xin chào"
+      welcome: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+      subject: "Xác thực tài khoản"
+      activate: "Hoat Dong"
+    password_reset:
+      hi: "Xin chào"
+  account_activations:
+    edit:
+      account_active: "Xac thuc thanh cong!"
+      invalid_activation: "Linh khong hop le"
