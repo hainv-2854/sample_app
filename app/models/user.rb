@@ -2,6 +2,7 @@ class User < ApplicationRecord
   attr_accessor :remember_token, :activation_token, :reset_token
   before_create :create_activation_digest
   before_save :email_downcase
+  has_many :microposts
 
   validates :name,
             presence: true,
